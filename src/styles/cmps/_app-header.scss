@@ -1,0 +1,26 @@
+.app-header {
+    background-color: $clr2;
+    color: $clr1;
+    font-family: "raleway-regular";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // padding-top: 73px;
+    padding-inline: 80px;
+}
+
+.header-logo {
+    img {
+        width: 110px;
+        object-fit: contain;
+    }
+}
+
+.header-nav {
+    display: flex;
+    font-size: 1rem;
+
+    >*:not(:last-child) {
+        margin-inline-end: 60px;
+    }
+}
