@@ -1,3 +1,30 @@
+.contact-form {
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    background-color: $clr2;
+    padding: 42px 77px;
+    position: absolute;
+    bottom: -356px;
+    right: 50%;
+    transform: translate(50% , -50%);
+
+    p {
+        font-family: "Open Sans - Regular";
+        font-size: rem(14px);
+        font-weight: 400;
+    }
+
+    input {
+        color: #c0c0c0;
+        width: 480px;
+        height: 48px;
+        box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.16);
+        border-radius: 24px;
+        padding-inline-start: 38px;
+        margin-inline-end: 30px;
+    }
+}
+
 .contact-form-header {
     font-family: "raleway-bold";
     font-size: rem(32px);

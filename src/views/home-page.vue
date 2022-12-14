@@ -16,7 +16,7 @@
       <home-page-overview/>
       <home-page-more/>
       <reviews-preview/>
-      <contact-form/>
+      <contact-form />
     </div>
   </section>
 </template>
@@ -27,7 +27,8 @@ import homePageOverview from '../cmps/home-page-overview.vue'
 import homePageMore from '../cmps/home-page-more.vue';
 import reviewsPreview from '../cmps/reviews-preview.vue';
 import contactForm from '../cmps/contact-form.vue'
+import appFooter from '../cmps/app-footer.vue';
   export default {
-    components: {homePageOverview , homePageMore , reviewsPreview , contactForm}
+    components: {homePageOverview , homePageMore , reviewsPreview , contactForm , appFooter}
   }
 </script>
