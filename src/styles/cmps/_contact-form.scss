@@ -4,14 +4,20 @@
     background-color: $clr2;
     padding: 42px 77px;
     position: absolute;
-    bottom: -356px;
+    bottom: -264px;
     right: 50%;
-    transform: translate(50% , -50%);
+    transform: translate(50%, -50%);
 
-    p {
+    .about-contect-form {
         font-family: "Open Sans - Regular";
         font-size: rem(14px);
         font-weight: 400;
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 16px;
+        letter-spacing: normal;
+        max-width: none;
+        padding: 0 40px;
     }
 
     input {
@@ -23,6 +29,11 @@
         padding-inline-start: 38px;
         margin-inline-end: 30px;
     }
+
+    form {
+        display: flex;
+        align-items: center;
+    }
 }
 
 .contact-form-header {
@@ -30,4 +41,5 @@
     font-size: rem(32px);
     font-weight: 700;
     line-height: 48px;
+    text-align: center;
 }
